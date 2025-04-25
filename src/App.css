@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  /* background: #fdf6f0; */
+  
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.Header{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.player-container {
+  max-width: 300px;
+  /* width: 100%; */
+  /* background-color: red; */
+  min-width: 250px;
+  margin: 20px;
+  padding: 20px 50px;
+  text-align: center;
+    border-radius: 50px;
+  /* box-shadow: 0 10px 20px rgba(0,0,0,0.1); */
+  border: 1px solid rgba(0, 0, 0, 0.075);
+}
+
+.app-header h1 {
+  font-family: 'Pacifico', cursive;
+  /* color: #fff; */
+  margin-bottom: 5px;
+}
+
+.app-header p {
+  /* color: #fff; */
+  margin-top: 0;
+}
+
+.album-art {
+  width: 100%;
+  max-width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  border-radius: 50px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.album-art img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.song-info h2{
+  font-family: "Cal Sans", sans-serif;
+
+}
+.song-info>p {
+  /* color: #fff; */
+  margin: 5px 0;
+}
+.song-info h3 {
+  /* color: #fff; */
+  margin: 5px 0;
+  font-family: "Dancing Script", cursive;
+  
+}
+.complimentt{
+  font-family: "Source Serif 4", serif;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: "Winky Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  padding-top: 20px;
+}
+
+.compliment {
+  font-style: italic;
+  /* color: #ffe3e3; */
+}
+
+.player-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.side-controls {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.volume-slider {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.volume-bar {
+  width: 100%;
+  max-width: 150px;
+}
+
+.audio-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 20px 0;
+}
+
+.control-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  /* color: #fff; */
+  transition: transform 0.2s ease;
+}
+
+.control-btn:hover {
+  transform: scale(1.2);
+}
+
+.play-btn {
+  font-size: 36px;
+}
+
+.progress-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.progress-bar {
+  flex-grow: 1;
+  appearance: none;
+  height: 5px;
+  border-radius: 5px;
+  background-color: black;
+  background: black;
+
+  /* outline: none; */
+
+  background-color: rgb(230, 230, 230);
+
+}
+
+.progress-bar::-webkit-slider-thumb {
+  appearance: none;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background: #ff4d6d;
+  background: black;
+  cursor: pointer;
+}
+
+.time {
+  /* color: #fff; */
+  font-size: 12px;
+}
+
+.active {
+  color: #ff4d6d;
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+  .audio-controls {
+    gap: 20px;
+  }
+  .Header{
+    margin-bottom: -40px;
+  }
+
+  .control-btn {
+    font-size: 20px;
+  }
+
+  .play-btn {
+    font-size: 30px;
+  }
+  .player-container{
+    border: none !important;
+    /* padding: -10px -30px; */
+  }
+}
+
+
+.Header img{
+  mix-blend-mode: multiply;
+}
+
+.Header h1 {
+  font-family: "Cal Sans", sans-serif; /* Cleaned up font stack */
+  background: linear-gradient(90deg, #a10619, #ff1327);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+
+
