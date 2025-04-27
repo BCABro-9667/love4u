@@ -13,6 +13,8 @@ import song3 from '../assets/songs/fhir_le_aya.m4a';
 import song4 from '../assets/songs/kesri2.m4a';
 import song5 from '../assets/songs/jo_tum_ho.m4a';
 import song6 from '../assets/songs/dhdkne.m4a';
+import song7 from '../assets/songs/tere_hawale.m4a';
+import song8 from '../assets/songs/sajni.m4a';
 
 import album1 from '../assets/images/album1.jpg';
 import album2 from '../assets/images/album2.jpg';
@@ -20,6 +22,8 @@ import album3 from '../assets/images/album3.jpg';
 import album4 from '../assets/images/kesri.jpg';
 import album5 from '../assets/images/anuv.jpg';
 import album6 from '../assets/images/dhadkne.jpg';
+import album7 from '../assets/images/terehawale.jpg';
+import album8 from '../assets/images/sajni.jpg';
 
 const slugify = (text) =>
   text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
@@ -58,6 +62,13 @@ const PlayerPage = () => {
       compliment: "No matter where I go, my heart always finds its way back to you. 🔁❤️"
     },
     {
+      title: "Tere Hawaale",
+      artist: "Arijit,Shilpa",
+      audioSrc: song7,
+      image: album7,
+      compliment: "No distance 🚶‍♂️➡️🚶‍♀️ can dim the light 🌟 you bring to my heart 💘"
+    },
+    {
       title: "O Shera-Teer Te Taj",
       artist: "Sangtar",
       audioSrc: song4,
@@ -70,7 +81,16 @@ const PlayerPage = () => {
       audioSrc: song5,
       image: album5,
       compliment: "If you're mine, I need nothing else—you're my forever peace. 💑"
-    }
+    },
+   
+    {
+      title: "Sajni",
+      artist: "Arijit Singh, Ram Sampatha",
+      audioSrc: song8,
+      image: album8,
+      compliment: "Your love is my favorite melody 🎶 that plays in my soul 🎧"
+    },
+
   ];
 
   const [currentSongIndex, setCurrentSongIndex] = useState(0);
