@@ -39,6 +39,14 @@ const PlayerPage = () => {
 
   const songs = [
     {
+      title: "Saiyaara",
+      artist: " Tanishk, Faheem",
+      audioSrc: song9,
+      image: album9,
+      compliment: "That Sayira song 🎶 reminds me of you — my heart's favorite melody ❤️💕"
+    },
+
+    {
       title: "Dhadkanein Meri",
       artist: "Yasser Desai & Asees Kaur",
       audioSrc: song6,
@@ -73,13 +81,15 @@ const PlayerPage = () => {
       image: album7,
       compliment: "No distance 🚶‍♂️➡️🚶‍♀️ can dim the light 🌟 you bring to my heart 💘"
     },
-    {
-      title: "O Shera-Teer Te Taj",
-      artist: "Sangtar",
-      audioSrc: song4,
-      image: album4,
-      compliment: "You're my queen, fierce and divine—love like yours is royalty. 👑"
+
+     {
+      title: "Ishq Hai",
+      artist: " Anurag Saikia",
+      audioSrc: song10,
+      image: album10,
+      compliment: "Just like Ishq Hai, your love plays on loop in my heart — soft, soulful, and unforgettable ❤️🎧💫"
     },
+   
     {
       title: "Jo Tum Mere Ho",
       artist: "Anuv Jain",
@@ -97,19 +107,13 @@ const PlayerPage = () => {
     },
 
      {
-      title: "Saiyaara",
-      artist: " Tanishk, Faheem",
-      audioSrc: song9,
-      image: album9,
-      compliment: "That Sayira song 🎶 reminds me of you — my heart's favorite melody ❤️💕"
+      title: "O Shera-Teer Te Taj",
+      artist: "Sangtar",
+      audioSrc: song4,
+      image: album4,
+      compliment: "You're my queen, fierce and divine—love like yours is royalty. 👑"
     },
-     {
-      title: "Ishq Hai",
-      artist: " Anurag Saikia",
-      audioSrc: song10,
-      image: album10,
-      compliment: "Just like Ishq Hai, your love plays on loop in my heart — soft, soulful, and unforgettable ❤️🎧💫"
-    },
+    
 
   ];
 
