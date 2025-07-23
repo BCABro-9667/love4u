@@ -16,6 +16,7 @@ import song6 from '../assets/songs/dhdkne.m4a';
 import song7 from '../assets/songs/tere_hawale.m4a';
 import song8 from '../assets/songs/sajni.m4a';
 import song9 from '../assets/songs/say.m4a.m4a';
+import song10 from '../assets/songs/isqh.m4a';
 // import song9 from '../assets/songs/say.m4a';
 
 import album1 from '../assets/images/album1.jpg';
@@ -27,6 +28,7 @@ import album6 from '../assets/images/dhadkne.jpg';
 import album7 from '../assets/images/terehawale.jpg';
 import album8 from '../assets/images/sajni.jpg';
 import album9 from '../assets/images/Saiyaara-Hindi-2025-20250703061754-500x500.jpg';
+import album10 from '../assets/images/isqh.jpg';
 
 const slugify = (text) =>
   text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
@@ -100,6 +102,13 @@ const PlayerPage = () => {
       audioSrc: song9,
       image: album9,
       compliment: "That Sayira song 🎶 reminds me of you — my heart's favorite melody ❤️💕"
+    },
+     {
+      title: "Ishq Hai",
+      artist: " Anurag Saikia",
+      audioSrc: song10,
+      image: album10,
+      compliment: "Just like Ishq Hai, your love plays on loop in my heart — soft, soulful, and unforgettable ❤️🎧💫"
     },
 
   ];
